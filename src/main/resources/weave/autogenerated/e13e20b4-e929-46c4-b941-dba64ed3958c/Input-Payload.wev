@@ -1,0 +1,18 @@
+%dw 2.0
+
+type auto_e13e20b4_e929_46c4_b941_dba64ed3958c_Input_Payload = {
+  seat: String, 
+  lastName: String, 
+  flight: String, 
+  airportDepart: String, 
+  flightDate: String, 
+  airportArrive: String, 
+  PNR: String, 
+  gate: String, 
+  depart: String, 
+  bagsCount: Number, 
+  class: "Economy" | "Premium" | "First" | "Business", 
+  boarding: String, 
+  _?: Any
+} {"description": "Represents a Boarding Pass for a Passenger linked via PNR(Passenger Name Record)."}
+

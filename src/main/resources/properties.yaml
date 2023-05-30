@@ -1,0 +1,6 @@
+tls.keystore:
+  type: "PKCS12"
+  path: "check-in-papi.p12"
+  alias: "server"
+  password: "mule12345"
+  keypassword: "mule12345"
