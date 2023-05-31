@@ -37,8 +37,8 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
-						<connectedAppClientId>${ap.clientid}</connectedAppClientId>
-						<connectedAppClientSecret>${ap.clientsecret}</connectedAppClientSecret>
+						<connectedAppClientId>${app.clientId}</connectedAppClientId>
+						<connectedAppClientSecret>${app.clientSecret}</connectedAppClientSecret>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
 						<applicationName>checkin-api-jmb3005</applicationName>
 						<environment>dev</environment>
@@ -47,8 +47,8 @@
 						<workers>1</workers>
 						<workerType>SMALL</workerType>
 						<properties>
-							<anypoint.platform.client_id>9445daa7d65c49ebb7f22cb89c43d997</anypoint.platform.client_id>
-							<anypoint.platform.client_secret>28C92935eb2C42768faE6Fd872c1fFBd</anypoint.platform.client_secret>
+							<anypoint.platform.client_id>${anypoint.clientId}</anypoint.platform.client_id>
+							<anypoint.platform.client_secret>${anypoint.clientSecret}</anypoint.platform.client_secret>
 						</properties>
 					</cloudHubDeployment>
 					<classifier>mule-application</classifier>
