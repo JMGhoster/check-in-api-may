@@ -75,7 +75,7 @@ jobs:
       run: |
         artifactName=$(ls *.jar | head -1)
         mvn deploy -DmuleDeploy \
-         -Dclient.id="$ID" \
-         -Dclient.secret="$SECRET" \
-         -Danypoint.client_id="$CLIENTID" \
-         -Danypoint.client_secret="$CLIENTSE" \
+         -Dapp.clientId="$ID" \
+         -Dapp.clientSecret="$SECRET" \
+         -Danypoint.clientId="$CLIENTID" \
+         -Danypoint.clientSecret="$CLIENTSE" \
